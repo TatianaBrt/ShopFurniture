@@ -1,5 +1,7 @@
 # totalitycorp-frontend-challenge
 Shop
+Demo: https://shop-9e2k.onrender.com/
+
 ## Technical details
 
 ![React](https://img.shields.io/badge/React-35495E?style=for-the-badge&logo=logoColor=4FC08D)
