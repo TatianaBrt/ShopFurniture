@@ -684,6 +684,9 @@ padding: 5px;
 
 
 @media screen and (max-width: 576px){
+  body{
+    margin:0;
+  }
   .navbar{
     position: fixed;
     left: -300px;
