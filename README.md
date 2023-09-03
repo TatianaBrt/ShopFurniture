@@ -18,6 +18,4 @@ This project implements basic shopping cart and catalog features:
 * React Router
 
 
-## Preview
 
-https://github.com/TatianaBrt/Shop/assets/115479875/52f79619-fbc7-424c-bd5b-fe8d140402f0
