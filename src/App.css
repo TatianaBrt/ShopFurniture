@@ -847,5 +847,8 @@ margin-left: auto;
     .containerHome{
     height: 220px;
     }
+  .buttonHome{
+     width:30px;
+  }
 
 }
