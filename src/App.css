@@ -633,8 +633,7 @@ width: 200px;
     display: block;
   margin-left: 300px;
   width: 50px;
- 
-     }
+       }
 .logo{
   color: aliceblue;
   font-size: 40px;
@@ -705,7 +704,9 @@ padding: 5px;
     .btn{
     display: block;
     margin-left: 150px;
-       }
+      width: 30px;
+     height:30px;
+             }
   .logo{
     color: aliceblue;
     font-size: 20px;
@@ -847,8 +848,5 @@ margin-left: auto;
     .containerHome{
     height: 220px;
     }
-  .buttonHome{
-     width:30px;
-  }
 
 }
