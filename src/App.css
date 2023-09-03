@@ -749,6 +749,7 @@ padding: 5px;
     position: fixed;
      top: 0;
     width: 100%;
+     overflow: hidden;
    }
    .furnt{
     margin-top: 40px;
