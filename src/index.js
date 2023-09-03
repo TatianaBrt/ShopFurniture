@@ -20,7 +20,7 @@ root.render(
   clientId="jOfU9rz8gKWCEGTRKk5FE2xZCkGAFX2H"
   authorizationParams={{
 
-    redirect_uri: 'https://furniture-v1gs.onrender.com/log'
+    redirect_uri: 'https://shop-9e2k.onrender.com/log'
 
     
   }}
