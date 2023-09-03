@@ -1,0 +1,851 @@
+.navbar{
+  background:#3FB88B;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  font-family: 'Forum', cursive;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-weight: bolder;
+ }
+ .btn, .arrow{
+  display: none;
+  }
+
+.Link{
+  padding: 10px 30px;
+  text-decoration: none;
+  color: beige;
+}
+.linltxt{
+  padding: 30px;
+}
+.count{
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.bg{
+  background-color:  #ac0b0bde;
+  border-radius: 20%;
+
+}
+.logo{
+  text-decoration: none;
+  margin-right:auto ;
+  color: #580204;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: 'Forum', cursive;
+  padding: 30px;
+}
+body{
+  background:#FFDC0F;
+  margin-top: 90px;
+}
+.about{
+  color:#49493c;
+  font-family: 'Forum', cursive;
+  display: flex;
+justify-content: space-around;
+padding: 60px;
+   }
+.brand{
+  background-color: rgba(10, 245, 159, 0.989);
+  padding: 30px;
+margin-right: 80px;
+text-align: left;
+box-shadow: 0 0 30px green;
+}
+.brandOne{
+  background-color: rgba(10, 245, 159, 0.989);
+  padding: 30px;
+  text-align: left;
+  box-shadow: 0 0 30px green;
+}
+.brandTwo{
+  background-color: rgba(10, 245, 159, 0.989);
+  padding: 30px;
+margin-left: 80px;
+text-align: left;
+box-shadow: 0 0 30px green;
+}
+
+h1{
+  font-size: 30px;
+  color: #580204;
+  font-family: 'Forum', cursive;
+}
+button {
+  margin: 10px;
+}
+h3{
+  font-size: 16px;
+}
+h4{
+  font-size: 15px;
+}
+
+.description{
+  text-align:inherit;
+  font-size: 15px;
+  transition: all 1s ease;
+
+}
+.description:hover{
+  transform: scale(1.2);
+  transition-duration: 2s;
+}
+
+.header{
+  font-family: 'Forum', cursive;
+  padding: 10px;
+  font-size: 50px;
+text-align: center;
+}
+
+.containerHome {
+  display: flex;
+  justify-content: center;
+  background-color: #FFDC0F;
+  height: 350px;
+}
+.buttonHome{
+  width: 70px;
+  background: #FFDC0F;
+  border: none;
+}
+
+.details{
+  background:#3FB88B;
+  padding: 10px;
+  border: none;
+  color:white;
+  cursor: pointer;
+  box-shadow: 0 0 10px green;
+  border-radius: 50px;
+  font-family: 'Forum', cursive;
+  font-size: 15px;
+  font-weight: 550;
+  width:120px ;
+  height: 40px;
+  -webkit-transition-duration: .3s;
+        transition-duration: .3s;
+  }
+
+  .details:active {
+    -webkit-transform: translate(2px ,0px);
+      -ms-transform: translate(2px ,0px);
+          transform: translate(2px ,0px);
+  -webkit-box-shadow: 0px 2px 0px rgb(41, 125, 8);
+          box-shadow: 0px 2px 0px rgb(41, 125, 8);
+ padding-bottom: 10px;
+  }
+
+  .btnAdd{
+    width: 150px;
+    height: 40px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(214, 202, 254)), to(rgb(158, 129, 254)));
+    background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));
+    border: none;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 3px 0px rgb(139, 113, 255);
+            box-shadow: 1px 3px 0px rgb(139, 113, 255);
+    -webkit-transition-duration: .3s;
+            transition-duration: .3s;
+     margin: auto;
+    font-family: 'Forum', cursive;
+    font-weight: bolder;
+    font-size: 15px;
+     }
+     .btnAdd:active{
+      -webkit-transform: translate(2px ,0px);
+      -ms-transform: translate(2px ,0px);
+          transform: translate(2px ,0px);
+  -webkit-box-shadow: 0px 1px 0px rgb(139, 113, 255);
+          box-shadow: 0px 1px 0px rgb(139, 113, 255);
+ padding-bottom: 2px;
+     }
+
+
+  .cartShop{
+    width: 14px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  }
+
+  .cartShop path{
+    fill: white;
+  }
+
+  .btnQuantity{
+    background: #ef9652;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+  }
+  .btnQ{
+display: flex;
+justify-content: center;
+  }
+
+.categoryButtonSelected{
+  background-color: #3FB88B;
+  cursor:pointer;
+  box-shadow: 0 0 15px green;
+  border-radius: 8px;
+  }
+.categoryButton:hover {
+  background-color: darksalmon;
+  box-shadow: 0 0 15px rgb(255, 89, 0);
+  border-radius: 8px;
+ }
+
+.allCategory{
+  display: flex;
+  justify-content:center;
+}
+.filterCategory{
+  padding: 10px;
+}
+
+.furnImg{
+  width: 200px;
+  height: 250px;
+  transition: all 1s ease;
+}
+
+.furnImg:hover {
+  transform: scale(1.3);
+}
+
+.categoryButtonSelected{
+  background-color: #3FB88B;
+  cursor: pointer;
+  margin: 5px;
+  padding: 8px;
+}
+.categoryButton:hover {
+  background-color: #ef9652;
+  cursor: pointer;
+  margin: 5px;
+  padding: 8px;
+}
+.things{
+display: flex;
+justify-content: center;
+padding: 2%;
+flex-wrap: wrap;
+
+}
+.furnt{
+  padding: 10px;
+  color:#49493c;
+  display: flex;
+}
+
+.furntAll{
+  display: flex;
+  flex-wrap: wrap;
+ 
+
+}
+.container{
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+  color: #49493c;
+  text-align: center;
+ 
+}
+.contC{
+display: flex;
+flex-direction: column;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+ }
+
+.textContact{
+  text-align: center;
+  font-family: 'Forum', cursive;
+  color:#49493c;
+  font-size: 20px;
+  padding: 10px;
+  }
+
+.imgContact{
+  box-shadow: 0 0 20px black;
+}
+
+.footer{
+position: relative;
+margin-top: 980px;
+
+  left: 0;
+  right: 0;
+  background:#3FB88B;
+  width: 100%;
+
+  color: #49493c;
+  font-family: 'Forum', cursive;
+ 	 }
+
+a{
+  text-decoration: none;
+  color: #580204;
+  padding: 10px;
+ }
+
+ .textFooter{
+  display: flex;
+  justify-content: center;
+  font-family: 'Forum', cursive;
+  color:#49493c;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 2px;
+ }
+
+ .btnPay{
+  background:#3FB88B;
+  padding: 10px;
+  border: none;
+  color:white;
+  width: 100px;
+  cursor: pointer;
+  margin: 20px;
+  }
+
+.stripeForm{
+margin: auto;
+}
+.totalQuantity{
+  padding: 40px;
+}
+.totalPrice{
+display: flex;
+justify-content: center;
+  color:#49493c;
+  font-family: 'Forum', cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cartList{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 2%;
+flex-grow: 1;
+flex-basis: 16%;
+  color:#49493c;
+  font-weight: bold;
+  font-weight: 10px;
+  font-family: 'Forum', cursive;
+   }
+.incart{
+  margin: 20px;
+}
+.icon{
+  cursor: pointer;
+}
+.span{
+margin-top: 7px;
+}
+.price{
+  color: #ac0b0bde;
+}
+.log{
+margin-top: 90px;
+  text-align: center;
+  color:#49493c;
+  font-family: 'Forum', cursive;
+  font-size: 20px;
+}
+
+.login{
+  background:#cf6230;
+  margin-top: 30px;
+  padding: 10px;
+  border: none;
+  color:white;
+  width: 100px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgb(44, 38, 38);
+  border-radius: 8px;
+   }
+
+ 
+.logout{
+  background:#3FB88B;
+  margin-top: 30px;
+  padding: 10px;
+  border: none;
+  color:white;
+  width: 100px;
+  cursor: pointer;
+  box-shadow: 0 0 15px green;
+  border-radius: 8px;
+}
+.success{
+  text-align: center;
+  font-family: 'Forum', cursive;
+  color: rgba(247, 7, 7, 0.968);
+}
+.btnPriceDilter{
+  display: flex;
+  justify-content: center;
+}
+
+.headerform {
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(79, 98, 148);
+}
+
+.adress{
+  background: rgb(76, 76, 180);
+  width: 30%;
+  }
+  .adresform{
+    display: flex;
+    justify-content: center;
+  }
+.form{
+  background: rgb(76, 76, 180);
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+}
+.inputform {
+  display: block;
+  box-sizing: border-box;
+  width: 60%;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 5px 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  margin: auto;
+ }
+.labelform {
+  line-height: 2;
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+  margin: -15px;
+ }
+
+.btnform[type="submit"],
+.inputfform[type="submit"] {
+  background: #ec5990;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  padding: 15px;
+  font-size: 10px;
+  font-weight: 100;
+  letter-spacing: 10px;
+  width:70%;
+ margin-left: 45px;
+ margin-top: 10px;
+ }
+
+.btnform[type="submit"]:hover,
+.inputform[type="submit"]:hover {
+  background: #bf1650;
+}
+.textform {
+  color: red;
+}
+
+ .textform::before {
+  display: inline;
+  margin-left: 65px;
+  content: "⚠ ";
+}
+
+.headerform{
+padding: 10px;
+}
+.delivery{
+display: flex;
+justify-content: center;
+}
+.btndelivery{
+  border-radius: 6px;
+  padding: 5px;
+  background-color: rgb(158, 129, 244);
+  border: none;
+  color: white;
+  box-shadow: 0 0 15px rgb(158, 129, 244);
+  font-family: 'Forum', cursive;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.icondelivery{
+display: flex;
+margin: auto;
+}
+.spanl{
+  margin-left: 65px;
+}
+
+
+@media screen and (max-width: 820px){
+.header{
+margin-top: 100px;
+}
+.containerHome{
+  margin-top: 100px;
+}
+h1{
+  font-size: 40px;
+}
+.footer{
+  padding: 10px;
+}
+.textFooter{
+  font-size: 20px;
+}
+.about{
+display: flex;
+flex-direction: column;
+}
+.brand, .brandOne{
+display: flex;
+flex-direction: column;
+margin-top: 40px;
+font-size: 40px;
+margin-right: 90px;
+}
+
+.brandTwo{
+  margin-top: 40px;
+font-size: 40px;
+margin-right: 160px;
+}
+.contC{
+  margin-top:150px;
+}
+.textContact{
+  font-size: 30px;
+}
+
+.headerform {
+  font-size: 25px;
+}
+
+.adress{
+  width: 50%;
+  }
+.inputform {
+  width: 80%;
+  padding: 10px 10px;
+  font-size: 25px;
+ }
+
+.btnform[type="submit"],
+.inputfform[type="submit"] {
+    padding: 20px;
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 10px;
+  width:70%;
+ }
+
+.delivery{
+display: flex;
+justify-content: center;
+}
+.btndelivery{
+  border-radius: 6px;
+  padding: 10px;
+  background-color: rgb(158, 129, 244);
+  border: none;
+  color: white;
+  box-shadow: 0 0 15px rgb(158, 129, 244);
+  font-family: 'Forum', cursive;
+  margin-top: 5px;
+  cursor: pointer;
+  width: 15%;
+  font-size: 25px;
+  text-align: center;
+}
+.icondelivery{
+display: flex;
+margin: auto;
+width: 50px;
+}
+.spanl{
+margin-left: 29px;
+}
+
+.totalPrice{
+  font-size: 40px;
+}
+
+.btnPay{
+font-size: 30px;
+padding: 10px;
+width: 200px;
+}
+.navbar{
+  position: fixed;
+  left: -300px;
+    display: flex;
+    flex-direction:column;
+    width: 200px;
+    height: 100%;
+    border: 2px solid #69181F;
+    border-top-right-radius: 16px;
+   box-shadow: 4px 4px 6px #69181F;
+   transition: transform 0.3s linear;
+   background: #69181F;
+      }
+  .navbar.active{
+  transform: translateX(140%);
+  }
+
+  .btn{
+    display: block;
+  margin-left: 300px;
+  width: 50px;
+ 
+     }
+.logo{
+  color: aliceblue;
+  font-size: 40px;
+}
+.linltxt{
+ font-size: 30px;
+}
+.cartIcon{
+  width: 100px;
+}
+.login{
+  width: 40%;
+  font-size: 30px;
+  margin-top: 70px;
+}
+.count{
+  font-size: 40px;
+  color: #580204;
+  text-align: center;
+
+}
+.bg{
+  background-color: burlywood;
+border-radius: 20px;
+}
+.arrow{
+  display: block;
+  margin-bottom: 50px;
+   margin-left: 80px;
+ }
+ .things{
+  font-size: 25px;
+  }
+ .headerNav{
+  background:#3FB88B;
+  display: flex;
+  justify-content: center;
+padding: 5px;
+  font-family: 'Forum', cursive;
+  position: fixed;
+  top: 0;
+  width: 100%;
+ }
+ .furnt{
+  margin-top: 40px;
+ }
+}
+
+
+@media screen and (max-width: 576px){
+  .navbar{
+    position: fixed;
+    left: -300px;
+      display: flex;
+      flex-direction:column;
+      width: 200px;
+      height: 100%;
+      border: 2px solid #69181F;
+      border-top-right-radius: 16px;
+     box-shadow: 4px 4px 6px #69181F;
+     transition: transform 0.3s linear;
+     background: #69181F;
+        }
+    .navbar.active{
+    transform: translateX(140%);
+    }
+  
+    .btn{
+    display: block;
+    margin-left: 150px;
+       }
+  .logo{
+    color: aliceblue;
+    font-size: 20px;
+    }
+  .linltxt{
+   font-size: 20px;
+  }
+  .cartIcon{
+    width: 70px;
+  }
+  .login{
+    width: 40%;
+    font-size: 30px;
+    margin-top: 70px;
+  }
+  .count{
+    font-size: 20px;
+    color: #580204;
+    text-align: center;
+    }
+  .bg{
+    background-color: burlywood;
+  border-radius: 20px;
+  }
+  .arrow{
+    display: block;
+    margin-bottom: 50px;
+     margin-left: 80px;
+   }
+   .things{
+    margin-top: 40px;
+    }
+   .headerNav{
+    background:#3FB88B;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-family: 'Forum', cursive;
+    position: fixed;
+     top: 0;
+    width: 100%;
+   }
+   .furnt{
+    margin-top: 40px;
+   }
+   .header{
+    margin-top: 100px;
+    }
+    .containerHome{
+      margin-top: 100px;
+    }
+    h1{
+      font-size: 30px;
+    }
+    .footer{
+      padding: 10px;
+    }
+    .textFooter{
+      font-size: 15px;
+    }
+    .brand, .brandOne{
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+      font-size: 20px;
+      margin-right: 90px;
+      }
+      
+      .brandTwo{
+        margin-top: 40px;
+      font-size: 25px;
+margin-left: auto;
+      }
+   
+    .contC{
+      margin-top:150px;
+    }
+    .textContact{
+      font-size: 30px;
+    }
+    
+    .headerform {
+      font-size: 25px;
+    }
+    
+    .adress{
+      width: 100%;
+      }
+    .inputform {
+      width: 80%;
+      padding: 10px 10px;
+      font-size: 25px;
+     }
+    
+    .btnform[type="submit"],
+    .inputfform[type="submit"] {
+        padding: 15px;
+      font-size: 14px;
+      font-weight: 100;
+      letter-spacing: 10px;
+      margin-right: 50px;
+            }
+    
+    .delivery{
+    display: flex;
+    justify-content: center;
+    }
+    .btndelivery{
+      border-radius: 6px;
+      background-color: rgb(158, 129, 244);
+      border: none;
+      color: white;
+      box-shadow: 0 0 15px rgb(158, 129, 244);
+      font-family: 'Forum', cursive;
+      margin-top: 5px;
+      cursor: pointer;
+      width: 25%;
+      font-size: 20px;
+      text-align: center;
+    }
+    .icondelivery{
+    margin: auto;
+    width: 30px;
+    }
+    .spanl{
+    margin-left: 29px;
+    }
+    
+    .totalQuantity{
+      margin-top: 50px;
+      font-size: 30px;
+    }
+    
+    .btnPay{
+    font-size: 30px;
+    padding: 10px;
+    width: 200px;
+    }
+    .containerHome{
+    height: 220px;
+    }
+
+}
