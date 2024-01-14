@@ -46,10 +46,10 @@ body{
 }
 .about{
   color:#49493c;
-  font-family: 'Forum', cursive;
+  font-family: 'Forum';
   display: flex;
 justify-content: space-around;
-padding: 60px;
+padding: 90px;
    }
 .brand{
   background-color: rgba(10, 245, 159, 0.989);
@@ -302,9 +302,8 @@ margin-top: 980px;
   right: 0;
   background:#3FB88B;
   width: 100%;
-
   color: #49493c;
-  font-family: 'Forum', cursive;
+  font-family: 'Forum';
  	 }
 
 a{
@@ -317,9 +316,8 @@ a{
   display: flex;
   justify-content: center;
   font-family: 'Forum', cursive;
-  color:#49493c;
-  font-weight: bold;
-  font-size: 10px;
+  color:#beige;
+  font-size: 18px;
   padding: 2px;
  }
 
@@ -769,20 +767,17 @@ padding: 5px;
     .textFooter{
       font-size: 15px;
     }
-    .brand, .brandOne{
-      display: flex;
-      flex-direction: column;
-      margin-top: 40px;
+    .brand{
       font-size: 20px;
-      margin-right: 90px;
-      }
-      
-      .brandTwo{
-        margin-top: 40px;
-      font-size: 25px;
-margin-left: auto;
-      }
-   
+    margin-right: 40px;
+     }
+    .brandOne{
+      font-size: 20px;
+         }
+    .brandTwo{
+      font-size: 20px;
+       }
+       
     .contC{
       margin-top:150px;
     }
@@ -850,5 +845,18 @@ margin-left: auto;
     .containerHome{
     height: 200px;
     }
+
+  .about{
+      margin-top: 20px;
+     display: flex;
+     flex-wrap: wrap;
+   padding: 60px;
+ text-align: left;
+         }
+         .brandTwo,.brandOne,.brand{
+          margin-top: 40px;
+        font-size: 25px;
+        margin: 20px;
+        }
 
 }
