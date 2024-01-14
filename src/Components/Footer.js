@@ -18,7 +18,7 @@ const Footer=()=>{
  <a href='https://react.dev/' target="_blank"> <AiFillTwitterCircle></AiFillTwitterCircle></a>   
  </p>     
 
-<p>©2023 FURNIX | All Rights Reserved</p>      
+<p>© 2024 FURNIX | All Rights Reserved</p>      
 </div>        
 </div>
     )
