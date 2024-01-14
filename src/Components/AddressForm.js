@@ -100,7 +100,7 @@ const onSubmit =(data)=>{
 {errors?.address && <p className='textform'>{errors?.address?.message || 'Error'}</p>}
    </div> 
 
-   <input className='btnform' type="submit" />
+   <input className='btnform' type="submit" value="Send" />
 </form>
 
         </div>
